@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    overflow: hidden;
+} */
+.d-section-title{
+    font-size: 2.2rem;
+    margin-top: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.detail-form{
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+.form-group{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+label{
+    text-align: left;
+    margin-left: 6px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(196, 185, 185);
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+   border-color: #3498db;
+}
+
+button[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px){ 
+    .detail-form{
+        padding: 20px;
+    }
+
+}
+button[type="submit"]:hover{
+    background-color: darkgreen;
+}   
+@media screen and (max-width: 450px){
+    .detail-form{
+        padding: 15px;
+        max-width: 100%;
+        margin: 10px;
+    }
+    .d-section-title{
+        font-size: 1.8rem;
+    }
+    label{
+        font-size: 1rem;
+    }
+    footer{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:1300px) and (min-width:601px){
+    .detail-form{
+        padding: 25px;
+        max-width: 45%;
+    }
+}

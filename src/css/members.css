@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.m-card{
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+.m-card:hover{
+    transform: translateY(-5px);
+}
+.members-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+.m-section-title{
+    font-size: 2.2rem;
+    margin-top: 15px;
+    color: #333;
+    text-align: center;
+}
+.members-card{
+    text-align: center;
+    padding: 25px;
+    
+}
+/* .members-card{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+*/
+.member-rating{
+    color: #f39c12;
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+.member-price{
+    font-weight: bold;
+    color: green;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+.contact-info{
+    margin-top: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.m-card .btn{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    z-index: 2;
+    outline: none;
+}
+
+.m-card .btn:hover{
+    
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.m-card .btn::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: red;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    z-index: -1;
+}
+.m-card .btn:hover::after{
+    width: 100%;
+    color: white;
+}
+@media (max-width: 500px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    
+}
