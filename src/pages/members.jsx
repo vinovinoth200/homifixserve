@@ -32,7 +32,7 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 98765 43210</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                      <Link to="/details" className="btn btn-primary">  <a>Book Now</a> </Link>
                     </div>
 
                     <div className="m-card members-card">
@@ -43,7 +43,7 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 91234 56789</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                      <Link to="/details" className="btn btn-primary">  <a>Book Now</a> </Link>
                     </div>
 
                     <div className="m-card members-card">
@@ -54,7 +54,7 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 99876 54321</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                      <Link to="/details" className="btn btn-primary">  <a>Book Now</a> </Link>
                     </div>  
 
                     <div className="m-card members-card">
@@ -65,7 +65,7 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 99876 54321</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                      <Link to="/details" className="btn btn-primary">  <a>Book Now</a> </Link>
                     </div>  
 
                     <div className="m-card members-card">
@@ -76,7 +76,7 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 99876 54321</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                      <Link to="/details" className="btn btn-primary">  <a>Book Now</a> </Link>
                     </div>  
 
                     <div className="m-card members-card">
@@ -87,7 +87,7 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 99876 54321</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                      <Link to="/details" className="btn btn-primary">  <a>Book Now</a> </Link>
                     </div>  
 
                     <div className="m-card members-card">
@@ -98,7 +98,8 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 99876 54321</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                        <Link to="/details" className="btn btn-primary">  <a>Book Now</a> </Link>
+                     
                     </div>  
 
                     <div className="m-card members-card">
@@ -109,7 +110,8 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 99876 54321</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
+                        <Link to="/details" className="btn btn-primary"> <a>Book Now</a></Link>
+                      
                     </div>  
 
                     <div className="m-card members-card">
@@ -120,8 +122,10 @@ export default function Members(){
                         <div className="contact-info">
                            <p> <FontAwesomeIcon icon={faPhone} /> +91 99876 54321</p>
                         </div>
-                      <a href="/details" className="btn btn-primary">Book Now</a>
-                    </div>  
+                      <Link to="/details"  className="btn btn-primary">
+                      <a >Book Now</a>
+                      </Link>
+                  </div>  
                 </div>
             </div>
         <footer>

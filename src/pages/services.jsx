@@ -30,53 +30,67 @@ export default function Services() {
                         Available Services
                     </h2>
                     <div className="services-grid"> 
-                        <a href="/members" className="s-card service-card">
+                    <Link to="/members" className="s-card service-card">
+                        <a>
                             <FontAwesomeIcon className="service-icon" icon={faBolt} />
                             <h3>Electrician</h3>
                             <p>Wiring, Repairs, Installations</p>
                         </a>
-
-                         <a href="/members" className="s-card service-card">
+                    </Link>
+                        
+                    <Link to="/members" className="s-card service-card">  
+                        <a>
                             <FontAwesomeIcon className="service-icon" icon={faFaucet} />
                             <h3>Plumber</h3>
                             <p>Leaks, Pipe repairs, Installations</p>
-                        </a>
-
-                         <a href="/members" className="s-card service-card">
+                        </a>  
+                    </Link>
+                        
+                    <Link to="/members" className="s-card service-card">
+                        <a>
                             <FontAwesomeIcon className="service-icon" icon={faHammer} />
                             <h3>Carpenter</h3>
                             <p>Furniture, Doors, Repairs</p>
                         </a>
-
-                         <a href="/members" className="s-card service-card">
+                    </Link>
+                         
+                    <Link to="/members" className="s-card service-card">
+                        <a>
                             <FontAwesomeIcon className="service-icon" icon={faFan} />
                             <h3>AC Repair</h3>
                             <p>AC Installations, Issues</p>
                         </a>
-
-                         <a href="/members" className="s-card service-card">
+                    </Link>
+                        
+                    <Link to="/members" className="s-card service-card">
+                        <a>
                             <FontAwesomeIcon className="service-icon" icon={faPaintRoller} />
                             <h3>Renovating & Interiors</h3>
                             <p>Painting, Tile or Floor working, Wall water proofing</p>
                         </a>
-
-                         <a href="/members" className="s-card service-card">
+                    </Link>
+                         
+                    <Link to="/members" className="s-card service-card"> 
+                        <a>
                             <FontAwesomeIcon className="service-icon" icon={faBroom} />
                             <h3>Cleaning & Maintenance</h3>
                             <p>Pest Control, Bathroom & Home Cleaning</p>
                         </a>
-
-                         <a href="/members" className="s-card service-card">
+                    </Link>
+                         
+                    <Link to="/members" className="s-card service-card"> <a>
                             <FontAwesomeIcon className="service-icon" icon={faCamera} />
                             <h3>Technology</h3>
                             <p>CCTV Installation, Wi-Fi/Router Setup</p>
-                        </a>
+                        </a></Link>
+                         
 
-                         <a href="/members" className="s-card service-card">
+                    <Link to="/members" className="s-card service-card">  <a >
                             <FontAwesomeIcon className="service-icon" icon={faBabyCarriage} />
                             <h3>Daily help services</h3>
                             <p>Housekeeping, Babysitter, Cook or Maid Services</p>
-                        </a>
+                        </a> </Link>
+                        
                     </div>
                 </div>
             </main>
